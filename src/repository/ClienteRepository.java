@@ -16,7 +16,6 @@ public class ClienteRepository implements IClienteRepository {
         clientes.add(cliente);
     }
 
-    // BUG intencional: comparación de DNI con == en vez de equals
     public Cliente buscarPorDni(String dni) {
         for (Cliente c : clientes) {
             if (c.getDni() == dni) {
