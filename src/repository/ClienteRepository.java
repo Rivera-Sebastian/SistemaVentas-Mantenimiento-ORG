@@ -4,7 +4,7 @@ import model.Cliente;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ClienteRepository {
+public class ClienteRepository implements IClienteRepository {
 
     private List<Cliente> clientes;
 
