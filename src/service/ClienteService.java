@@ -28,5 +28,5 @@ public class ClienteService {
 
     public Cliente buscarCliente(String dni) {
         return clienteRepo.buscarPorDni(dni);
-    }
+    }   
 }
