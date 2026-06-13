@@ -23,6 +23,7 @@ public class ClienteService {
         Cliente cliente = new Cliente(dni, nombre, tipo);
         clienteRepo.guardar(cliente);
         Console.info("Cliente registrado: " + nombre);
+        Console.info("Cambio2 de rama 1: " + nombre);
     }
 
     public Cliente buscarCliente(String dni) {
